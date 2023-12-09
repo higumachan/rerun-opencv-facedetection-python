@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rerun-opencv-facedetection-python"
+version = "0.1.0"
+description = ""
+authors = ["Yuta Hinokuma <higumachan@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rerun-sdk = "^0.11.0"
+opencv-python = "^4.8.1.78"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
